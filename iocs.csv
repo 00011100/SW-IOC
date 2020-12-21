@@ -2,37 +2,39 @@ Indicator_type,Data,Note
 Description,IOCs from Solarwinds attack,
 
 file_path_name,C:\windows\syswow64\netsetupsvc.dll,TEARDROP memory module used to drop Cobalt Strike Beacon.
-domain,avsvmcloud.com,malware/callhome
-domain,digitalcollege.org,malware/callhome
+domain,avsvmcloud.com,malware/repository
+domain,databasegalore.com,malware/repository
+domain,deftsecurity.com,malware/repository
+domain,digitalcollege.org,malware/repository
 domain,freescanonline.com,malware/repository
 domain,globalnetworkissues.com,malware/repository
-domain,kubecloud.com,malware/repository
-domain,solartrackingsystem.net,malware/repostiory
-domain,virtualwebdata.com,malware/repository
-domain,webcodez.com,malware/repository
-domain,deftsecurity.com,malware/repository
-domain,thedoccloud.com,malware/repository
-domain,websitetheme.com,malware/repository
 domain,highdatabase.com,malware/repository
 domain,incomeupdate.com,malware/repository
-domain,databasegalore.com,malware/repository
-domain,panhardware.com,malware/repository
-domain,zupertech.com,malware/repository
-domain,seobundlekit.com,malware/repository
+domain,kubecloud.com,malware/repository
 domain,lcomputers.com,malware/repository
+domain,panhardware.com,malware/repository
+domain,seobundlekit.com,malware/repository
+domain,solartrackingsystem.net,malware/repository
+domain,thedoccloud.com,malware/repository
 domain,virtualdataserver.com,malware/repository
+domain,virtualwebdata.com,malware/repository
+domain,webcodez.com,malware/repository
+domain,websitetheme.com,malware/repository
+domain,zupertech.com,malware/repository
 ip,12.227.230.4,C2 malware/repository
-ip,13.27.184.217,C2 malware/repository
+ip,13.57.184.217,C2 malware/repository
 ip,13.59.205.66,C2 malware/repository
+ip,139.99.115.204,C2 malware/repository
+ip,167.114.213.199,C2 malware/repository
 ip,18.217.225.111,C2 malware/repository
 ip,18.220.219.143,C2 malware/repository
-ip,184.72.1.3,C2 malware/repository
 ip,184.72.101.22,C2 malware/repository
 ip,184.72.113.55,C2 malware/repository
+ip,184.72.1.3,C2 malware/repository
 ip,184.72.145.34,C2 malware/repository
 ip,184.72.209.33,C2 malware/repository
-ip,184.72.21.54,C2 malware/repository
 ip,184.72.212.52,C2 malware/repository
+ip,184.72.21.54,C2 malware/repository
 ip,184.72.224.3,C2 malware/repository
 ip,184.72.229.1,C2 malware/repository
 ip,184.72.240.3,C2 malware/repository
@@ -40,11 +42,18 @@ ip,184.72.245.1,C2 malware/repository
 ip,184.72.48.22,C2 malware/repository
 ip,196.203.11.89,C2 malware/repository
 ip,20.141.48.154,C2 malware/repository
+ip,204.188.205.176,C2 malware/callhome
 ip,3.16.81.254,C2 malware/repository
-ip,3.87.182.149,C2 malware/repository
+ip,34.203.203.23,C2 malware/repository
 ip,34.219.234.134,C2 malware/repository
+ip,3.87.182.149,C2 malware/repository
+ip,51.89.125.18,C2 malware/callhome
+ip,5.252.177.21,C2 malware/repository
+ip,5.252.177.25,C2 malware/repository
+ip,54.193.127.66,C2 malware/repository
+ip,54.215.192.52,C2 malware/repository
 ip,8.18.144.11,C2 malware/repository
-ip,8.18.144.12,C2 malware/repository 
+ip,8.18.144.12,C2 malware/repository
 ip,8.18.144.130,C2 malware/repository
 ip,8.18.144.135,C2 malware/repository
 ip,8.18.144.136,C2 malware/repository
@@ -71,40 +80,16 @@ ip,8.18.145.21,C2 malware/repository
 ip,8.18.145.3,C2 malware/repository
 ip,8.18.145.33,C2 malware/repository
 ip,8.18.145.36,C2 malware/repository
-ip,13.59.205.66,C2 malware/repository
-ip,139.99.115.204,C2 malware/repository
-ip,167.114.213.199,C2 malware/repository
-ip,204.188.205.176,C2 malware/repository
-ip,34.203.203.23,C2 malware/repository
-ip,5.252.177.21,C2 malware/repository
-ip,5.252.177.25,C2 malware/repository
-ip,51.89.125.18,C2 malware/repository
-ip,54.193.127.66,C2 malware/repository
-ip,54.215.192.52,C2 malware/repository
-ip,54.215.192.52,C2 malware/repository
-ip,13.59.205.66,C2 malware/repository
-ip,54.193.127.66,C2 malware/repository
-ip,54.215.192.52,C2 malware/repository
-ip,34.203.203.23,C2 malware/callhome
-ip,139.99.115.204,C2 malware/callhome
-ip,5.252.177.25,C2 malware/callhome
-ip,5.252.177.21,C2 malware/callhome
-ip,204.188.205.176,C2 malware/callhome
-ip,51.89.125.18,C2 malware/callhome
-ip,167.114.213.199,C2 malware/callhome
-sha256,d0d626deb3f9484e649294a8dfa814c5568f846d5aa02d4cdad5d041a29d5600,Troj/SunBurst-A.CORE-2019.4.5220.20574-SolarWinds-Core-v2019.4.5220-Hotfix5.msp 
-sha256,53f8dfc65169ccda021b72a62e0c22a4db7c4077f002fa742717d41b3c40f2c7,Mal/Generic-S.Solarwinds Worldwide LLC 
-sha256,ac1b2b89e60707a20e9eb1ca480bc3410ead40643b386d624c5d21b47c02917c,Microsoft-IOC/v2020.4.100.478
+sha256,019085a76ba7126fff22770d71bd901c325fc68ac55aa743327984e89f4b0134,Troj/Agent-BGGA.SolarWinds.Orion.Core.BusinessLayer.dll
+sha256,292327e5c94afa352cc5a02ca273df543f2020d0e76368ff96c84f4e90778712,Mal/Generic-S.OrionImprovementBusinessLayer.2.cs 	
+sha256,32519b85c0b422e4656de6e6c41878e95fd95026267daab4215ee59c107d6c77,Troj/Agent-BGFZ.SolarWinds.Orion.Core.BusinessLayer.dll
+sha256,53f8dfc65169ccda021b72a62e0c22a4db7c4077f002fa742717d41b3c40f2c7,Mal/Generic-S.Solarwinds Worldwide LLC
 sha256,eb6fab5a2964c5817fb239a7a5079cabca0a00464fb3e07155f28b0a57a2c0ed,Microsoft-IOC/v2020.2.100.11831
 sha256,c09040d35630d75dfef0f804f320f8b3d16a481071076918e9b236a321c1ea77,Microsoft-IOC/vUnknown
+sha256,c15abaf51e78ca56c0376522d699c978217bf041a3bd3c71d09193efa5717c71,Mal/Sunburst-B.app_web_logoimagehandler.ashx.b6031896.dll.SuperNova webshell 
+sha256,ce77d116a074dab7a22a0fd4f2c1ab475f16eec42e1ded3c0b0aa8211fe858d6,Troj/Agent-BGGB.SolarWinds.Orion.Core.BusinessLayer.dll
+sha256,d0d626deb3f9484e649294a8dfa814c5568f846d5aa02d4cdad5d041a29d5600,Troj/SunBurst-A.CORE-2019.4.5220.20574-SolarWinds-Core-v2019.4.5220-Hotfix5.msp 
 sha256,d3c6785e18fba3749fb785bc313cf8346182f532c59172b69adfb31b96a5d0af,Microsoft-IOC/v2019.4.5200.8890
-sha256,a25cadd48d70f6ea0c4a241d99c5241269e6faccb4054e62d16784640f8e53bc,Tampered-BGGA.SolarWinds.Orion.Core.BusinessLayer.dll
 sha256,dab758bf98d9b36fa057a66cd0284737abf89857b73ca89280267ee7caf62f3b,Troj/Agent-BGGA.SolarWinds.Orion.Core.BusinessLayer.dll
-sha256,019085a76ba7126fff22770d71bd901c325fc68ac55aa743327984e89f4b0134,Troj/Agent-BGGA.SolarWinds.Orion.Core.BusinessLayer.dll
-sha256,ce77d116a074dab7a22a0fd4f2c1ab475f16eec42e1ded3c0b0aa8211fe858d6,Troj/Agent-BGGB.SolarWinds.Orion.Core.BusinessLayer.dll 
-sha256,32519b85c0b422e4656de6e6c41878e95fd95026267daab4215ee59c107d6c77,Troj/Agent-BGFZ.SolarWinds.Orion.Core.BusinessLayer.dll 	
-sha256,292327e5c94afa352cc5a02ca273df543f2020d0e76368ff96c84f4e90778712,Mal/Generic-S.OrionImprovementBusinessLayer.2.cs 	
-sha256,c15abaf51e78ca56c0376522d699c978217bf041a3bd3c71d09193efa5717c71,Mal/Sunburst-B.app_web_logoimagehandler.ashx.b6031896.dll.SuperNova webshell backdoor
-sha256,019085a76ba7126fff22770d71bd901c325fc68ac55aa743327984e89f4b0134,Mal/Sunburst-A
-sha256,ce77d116a074dab7a22a0fd4f2c1ab475f16eec42e1ded3c0b0aa8211fe858d6,Mal/Sunburst-A
-sha256,32519b85c0b422e4656de6e6c41878e95fd95026267daab4215ee59c107d6c77,Mal/Sunburst-A
+sha256,a25cadd48d70f6ea0c4a241d99c5241269e6faccb4054e62d16784640f8e53bc,Tampered-BGGA.SolarWinds.Orion.Core.BusinessLayer.dll
+sha256,ac1b2b89e60707a20e9eb1ca480bc3410ead40643b386d624c5d21b47c02917c,Microsoft-IOC/v2020.4.100.478
